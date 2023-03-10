@@ -1,0 +1,342 @@
+body {
+	background-color: var(--blue8);
+}
+
+.App {
+	padding: 2em;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.card {
+	background-color: var(--blue10);
+	padding: 1em;
+	color: white;
+	border-radius: var(--radius);
+	margin-bottom: 2em;
+}
+
+header {
+	display: flex;
+	gap: 2em;
+	align-items: center;
+	justify-content: center;
+}
+
+header section {
+	padding: 1em 2em 1em 1em;
+}
+
+.thumbnail-border {
+	display: none;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1.1;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 1.6em;
+	line-height: 1;
+	font-weight: 200;
+	letter-spacing: 0.03em;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 1.6em;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 1.3rem;
+}
+
+header h2 {
+	background-color: var(--blue10);
+	position: relative;
+	padding-top: 1px;
+	margin-top: 3px;
+}
+
+main > h2 {
+	padding: 2rem 0;
+	font-weight: bold;
+	color: var(--blue2);
+}
+
+nav {
+	margin: 1rem 0;
+	padding-top: 1rem;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	gap: 1rem;
+}
+
+nav ul li span {
+	display: block;
+	font-weight: 500;
+}
+
+nav ul li a {
+	color: var(--blue1);
+	text-decoration: underline;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	color: var(--blue3);
+}
+
+.buttons-wrapper {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+.button {
+	appearance: none;
+	-webkit-apperance: none;
+	border-radius: var(--radius);
+	padding: 0.5rem 1rem;
+	background-color: var(--blue1);
+	border: none;
+	outline: none;
+	text-decoration: none;
+	color: var(--blue10);
+	font-weight: 500;
+	font-size: 1em;
+	cursor: pointer;
+	font-family: "Poppins", sans-serif;
+}
+
+.button:hover,
+.button:focus {
+	background-color: var(--blue3);
+	color: var(--blue10);
+}
+
+.intro {
+	padding-top: 1rem;
+	font-size: 1.1rem;
+}
+
+.experience-card h2 {
+	font-weight: 500;
+	font-size: 1.6rem;
+}
+.experience-card h2 span {
+	font-weight: 200;
+	display: block;
+	font-size: smaller;
+	margin-top: 0.5rem;
+}
+
+.experience-card h3 {
+	font-size: 1.2rem;
+}
+
+.experience-card .description ul {
+	padding-left: 1em;
+}
+.experience-card .description ul li {
+	margin-bottom: 0.5em;
+	font-size: 0.9rem;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	margin-bottom: 1em;
+}
+
+.skills {
+	margin-top: 1em;
+}
+
+.skills ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	list-style: none;
+	margin: 0.5rem 0 0;
+	padding: 0;
+}
+
+.skills ul li {
+	border-radius: var(--radius);
+	background-color: var(--blue8);
+	padding: 0.5em 1em;
+	font-weight: 500;
+	font-size: 0.85rem;
+}
+
+@media screen and (min-width: 768.1px) {
+	h1 {
+		font-size: 3.2em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.7em;
+	}
+
+	.thumbnail-border {
+		display: block;
+		background-color: var(--blue10);
+		flex: 0 0 200px;
+		width: 200px;
+		height: 200px;
+		margin-left: 2em;
+		border-radius: 100%;
+		overflow: hidden;
+	}
+
+	.thumbnail {
+		max-width: 100%;
+		object-fit: cover;
+		object-position: center;
+		mix-blend-mode: screen;
+	}
+
+	nav ul {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.title {
+		justify-content: space-between;
+		flex-direction: row;
+	}
+}
+
+/* Light Scheme */
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: var(--blue1-50);
+	}
+	.card {
+		background-color: #fff;
+		border: 2px solid var(--blue4);
+		box-shadow: 0px 3px 2px 0px var(--blue5), 0px 9px 0px 0px var(--blue8);
+		color: #111;
+	}
+	header {
+		mix-blend-mode: luminosity;
+	}
+	header h2 {
+		background-color: #fff;
+	}
+	main > h2 {
+		color: var(--blue10);
+	}
+	nav,
+	.intro {
+		border-top: 1px solid #f4f4f4;
+	}
+	nav ul li a {
+		color: var(--blue8);
+	}
+	nav ul li a:hover,
+	nav ul li a:focus {
+		color: var(--blue6);
+	}
+	.skills ul li {
+		background-color: var(--blue1);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	* {
+		transition: all 0.2s ease-in-out;
+	}
+}
+
+@media print {
+	.no-print {
+		display: none;
+	}
+	.App {
+		padding: 0 1em;
+		color: #000 !important;
+	}
+
+	body,
+	header,
+	.card {
+		border: none;
+		background-color: transparent;
+		font-size: 16px;
+		display: block;
+		padding: 0;
+		color: #000 !important;
+	}
+
+	.experience-card:nth-child(4) {
+		page-break-before: always;
+	}
+
+	.card {
+		margin-bottom: 1em;
+	}
+
+	.thumbnail-border {
+		display: none;
+	}
+
+	nav ul {
+		flex-direction: row;
+		font-size: 14px;
+		justify-content: center;
+	}
+
+	p {
+		font-size: 14px;
+		color: #000 !important;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	header h1,
+	header h2,
+	.intro {
+		margin-top: 1rem !important;
+		color: #000 !important;
+	}
+
+	h2,
+	h3,
+	h4,
+	.experience-card h2,
+	.experience-card h3 {
+		font-size: 16px;
+		font-weight: 500;
+		color: #000 !important;
+	}
+
+	main > h2 {
+		padding-top: 0;
+	}
+
+	.experience-card {
+		border: 2px solid var(--blue4);
+		padding: 1em;
+	}
+
+	.skills ul li {
+		padding: 0 5px;
+	}
+}
