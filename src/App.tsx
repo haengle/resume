@@ -13,7 +13,7 @@ function App() {
 
       <div className="no-print buttons-wrapper">
         <button className='button' onClick={print}>Print</button>
-        <a className='button' href="/HeatherEngleResume2023.pdf" target='_blank' title="Download PDF of my resume">Download PDF</a>
+        <a className='button' href="/resume/HeatherEngleResume2023.pdf" target='_blank' title="Download PDF of my resume">Download PDF</a>
       </div>
 
        <Header pic={myPic} />
