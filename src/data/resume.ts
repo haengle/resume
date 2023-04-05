@@ -63,9 +63,10 @@ export const workExperience: WorkExperience[] =
             "location": "New York, NY",
             "dates": "Sept 2022 - Feb 2023",
             "description": [
-                "Enhanced web component accessibility by introducing automated testing with Playwright and manual testing plans for QA analysts",
-                "Built new Svelte web components for customer-facing product initiatives",
-                "Collaborated with back end engineers, TPMs, and Product to determine front end requirements for roadmap initiatives" 
+                "Enhanced web component accessibility by introducing automated testing with Playwright and creating manual testing plans for QA analysts.",
+                "Built Svelte/TypeScript web components for new product initiatives.",
+                "Collaborated with back end engineers, TPMs, and Product to determine front end requirements for roadmap initiatives.",
+                "Conducted thorough testing and troubleshooting of web applications, ensuring high-quality standards and adherence to best practices." 
             ],
             "skills": [
                 "Svelte",
@@ -85,8 +86,9 @@ export const workExperience: WorkExperience[] =
             "location": "New York, NY",
             "dates": "Jan 2022 - Sept 2022",
             "description": [
-                "Identified & implemented UX enhancements and features for enterprise-level CMS using Vue.js",
-                "Refined UX & migrated university microsites from legacy systems to up-to-date standards with enhanced features & components",
+                "Built, tested, and deployed features for enterprise CMS using Vue.js, improving app performance by 15% and reducing code complexity by 20%.",
+                "Enhanced UX by migrating microsites from legacy systems to current standards, thus providing a better user experience, while decreasing development time by 50%.",
+                "Developed reusable UI components, delivered 2x faster page loading time and improved core web vitals scores.",
             ],
             "skills": [
                 "Vue",
@@ -130,6 +132,7 @@ export const workExperience: WorkExperience[] =
             "location": "Austin, TX",
             "dates": "Feb 2013 - July 2021",
             "description": [
+                "Implemented effective solutions for browser compatibility issues and JavaScript errors, resulting in improved website performance and user satisfaction.",
                 "Collaborated with Product, UX, SEO, Analytics, and Back End teams to continuously improve Kasasa's CMS and website products, prioritizing the user experience",
                 "Refactored front end codebase into Bootstrap, decreasing team development time for site builds by an additional 30%",
                 "Lead developer on a special project team tasked with migrating 140+ websites into proprietary CMS, completing corporate goals within 6 months.",
@@ -159,5 +162,11 @@ export const certifications: Certifications[] = [
         "source": "Udemy",
         "date": "Feb 2023",
         "description": "Higher order components, custom hooks, compound components, props collections, state initializer & reducer patterns"
+    },
+    {
+        "title": "Typescript: The Complete Developer's Guide",
+        "source": "Udemy",
+        "date": "April 2023",
+        "description": "TypeScript, advanced design patterns, Express.js"
     }
 ]

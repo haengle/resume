@@ -297,7 +297,7 @@ nav ul li a:focus {
 
 	nav ul {
 		flex-direction: row;
-		font-size: 14px;
+		font-size: 12px;
 		justify-content: center;
 	}
 
@@ -317,6 +317,17 @@ nav ul li a:focus {
 		color: #000 !important;
 	}
 
+	header h1 {
+		font-size: 18px !important;
+	}
+	header h2 {
+		font-size: 14px !important;
+	}
+
+	.intro {
+		font-size: 13px !important;
+	}
+
 	h2,
 	h3,
 	h4,
@@ -329,6 +340,7 @@ nav ul li a:focus {
 
 	main > h2 {
 		padding-top: 0;
+		padding-bottom: 1rem;
 	}
 
 	.experience-card {
