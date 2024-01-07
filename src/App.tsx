@@ -10,9 +10,8 @@ function App() {
 
   return (
     <div className="App">
-
       <div className="no-print buttons-wrapper">
-        <a className='button' href="/resume/HeatherEngleResume2023.pdf" target='_blank' title="Download PDF of my resume">Download PDF</a>
+        <a className='button' href="/resume/HeatherEngleResume2024.pdf" target='_blank' title="Download PDF of my resume">Download PDF</a>
       </div>
 
        <Header pic={myPic} />

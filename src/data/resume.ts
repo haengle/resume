@@ -30,7 +30,7 @@ export const introduction: Introduction = {
     "name": "Heather Engle",
     "headline": "Senior UI/UX Front End Engineer",
     "location": "Austin, TX",
-    "intro": "I'm a pixel-perfect front end engineer with 10+ years of experience. I focus on user experience & accessibility and have a passion for delivering exceptional digital experiences.",
+    "intro": "I'm a front end engineer with a proven track record of optimizing UX & enhancing developer workflows. I specialize in accessibility and user experience, & my passion is making pretty things for the web.",
     "links": [
         {
             "title": "Email",
@@ -58,6 +58,28 @@ export const introduction: Introduction = {
 export const workExperience: WorkExperience[] = 
     [
         {
+            "title": "Senior Frontend Software Engineer",
+            "company": "QuinStreet",
+            "location": "Austin, TX",
+            "dates": "May 2023 - present",
+            "description": [
+                "Spearheaded initiatives to elevate developer experience, introducing a robust code review process, streamlined code dependency management, and executed comprehensive refactoring of outdated code, resulting in increased efficiency and codebase quality.",
+                "Demonstrated expertise in working with diverse technologies, including React, Vue, Angular, Typescript, and Wordpress.",
+                "Actively contributed to the continuous integration of new features across multiple products, showcasing adaptability and proficiency in a wide range of modern development frameworks." 
+            ],
+            "skills": [
+                "Node",
+                "JSON",
+                "PHP",
+                "Vue",
+                "React",
+                "Wordpress",
+                "Angular",
+                "REST APIs",
+                "Bitbucket"
+            ]
+        },
+        {
             "title": "Senior Software Engineer II",
             "company": "Array",
             "location": "New York, NY",
@@ -82,10 +104,14 @@ export const workExperience: WorkExperience[] =
         },
         {
             "title": "Senior Front End Engineer",
-            "company": "Noodle, Inc",
+            "company": "Winston Project / Noodle, Inc",
             "location": "New York, NY",
-            "dates": "Jan 2022 - Sept 2022",
+            "dates": "July 2021 - Sept 2022",
             "description": [
+                "Established & implemented front-end component library with cutting edge technologies within 90 days",
+                "Managed front-end project setup, design and maintenance to ensure quality and consistency",
+                "Constructed high-performance UI components leveraging Alpine JS, Tailwind CSS, and Eleventy",
+                "Contributed pivotal role in successful acquisition of Eleven21 by Noodle",
                 "Built, tested, and deployed features for enterprise CMS using Vue.js, improving app performance by 15% and reducing code complexity by 20%.",
                 "Enhanced UX by migrating microsites from legacy systems to current standards, thus providing a better user experience, while decreasing development time by 50%.",
                 "Developed reusable UI components, delivered 2x faster page loading time and improved core web vitals scores.",
@@ -99,28 +125,6 @@ export const workExperience: WorkExperience[] =
                 "Alpine JS",
                 "GitHub",
                 "WordPress",
-            ]
-        },
-        {
-            "title": "Senior Front End Engineer",
-            "company": "Winston Project, LLC",
-            "location": "New York, NY",
-            "dates": "July 2021 - Dec 2021",
-            "description": [
-                "Established & implemented front-end component library with cutting edge technologies within 90 days",
-                "Managed front-end project setup, design and maintenance to ensure quality and consistency",
-                "Constructed high-performance UI components leveraging Alpine JS, Tailwind CSS, and Eleventy",
-                "Contributed pivotal role in successful acquisition of Eleven21 by Noodle"
-            ],
-            "skills": [
-                "Vue",
-                "Gulp",
-                "Eleventy",
-                "Nunjucks",
-                "Tailwind CSS",
-                "PostCSS",
-                "Alpine JS",
-                "GitHub",
                 "CI/CD",
                 "REST APIs",
                 "JSON"
@@ -148,7 +152,7 @@ export const workExperience: WorkExperience[] =
                 "Bootstrap", "Twig", "Velocity"
             ]
         }
-    ] 
+] 
 
 export const certifications: Certifications[] = [
     {
