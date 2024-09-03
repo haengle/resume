@@ -61,11 +61,11 @@ export const workExperience: WorkExperience[] =
             "title": "Senior Frontend Software Engineer",
             "company": "QuinStreet",
             "location": "Austin, TX",
-            "dates": "May 2023 - present",
+            "dates": "May 2023 - August, 2024",
             "description": [
-                "Spearheaded initiatives to elevate developer experience, introducing a robust code review process, streamlined code dependency management, and executed comprehensive refactoring of outdated code, resulting in increased efficiency and codebase quality.",
-                "Demonstrated expertise in working with diverse technologies, including React, Vue, Angular, Typescript, and Wordpress.",
-                "Actively contributed to the continuous integration of new features across multiple products, showcasing adaptability and proficiency in a wide range of modern development frameworks." 
+                "Spearheaded initiatives to elevate developer experience, introducing a robust code review process, streamlined code dependency management, and executed comprehensive refactoring of outdated React, Vue, and JS codebases, resulting in increased efficiency and codebase quality.",
+                "Demonstrated expertise in working with diverse technologies on high-traffic organic and SEM websites, including React, Vue, Typescript, and Wordpress.",
+                "Revamped outdated Gulp build process to Vite and NodeJS, reducing pipeline time by 98%, resulting in a substantial increase in CI/CD efficiency." 
             ],
             "skills": [
                 "Node",
@@ -74,7 +74,7 @@ export const workExperience: WorkExperience[] =
                 "Vue",
                 "React",
                 "Wordpress",
-                "Angular",
+                "Vite",
                 "REST APIs",
                 "Bitbucket"
             ]
