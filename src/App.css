@@ -204,6 +204,7 @@ nav ul li a:focus {
 	}
 
 	.thumbnail {
+		height: 100%;
 		max-width: 100%;
 		object-fit: cover;
 		object-position: center;
