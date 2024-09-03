@@ -29,7 +29,7 @@ interface Introduction {
 export const introduction: Introduction = {
     "name": "Heather Engle",
     "headline": "Senior UI/UX Front End Engineer",
-    "location": "Austin, TX",
+    "location": "Lexington, KY",
     "intro": "I'm a front end engineer with a proven track record of optimizing UX & enhancing developer workflows. I specialize in accessibility and user experience, & my passion is making pretty things for the web.",
     "links": [
         {

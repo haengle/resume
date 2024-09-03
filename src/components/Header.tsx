@@ -12,7 +12,7 @@ export default function Header({pic} : HeaderProps) {
             </div>
             <section>
                 <h1>{introduction.name}</h1>
-                <h2>{introduction.headline} in <em className="tooltip" title={introduction.location}>ATX</em></h2>
+                <h2>{introduction.headline} in <em className="tooltip" title={introduction.location}>LEX</em></h2>
                 <nav>
                     <ul>
                         {introduction.links.map((link, index: number) => {
